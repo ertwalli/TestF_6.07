@@ -58,7 +58,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1400, 500);
+  createCanvas(1250, 470);
   noFill();
   strokeWeight(1);
   shapeColor = color(255);
@@ -70,7 +70,7 @@ function setup() {
 function draw() {
   background(0);
 
-  translate(width*0.14, height * 0.6);
+  translate(width*0.1, height * 0.6);
   
   
 
